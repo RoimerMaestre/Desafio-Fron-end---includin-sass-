@@ -96,7 +96,7 @@
   display: flex;
 }
 
-.seccion-2-cards{
+.seccion-2-cards {
   margin: 1rem;
 }
 
@@ -109,6 +109,9 @@
 .sub-seccion-2-cards {
   display: flex;
   align-items: center;
+  &__date {
+    margin-left: 30px;
+  }
 }
 
 .sub-seccion-2-cards__logo {

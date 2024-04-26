@@ -51,7 +51,7 @@ body {
 
 .buttons-container__register-link {
   font-weight: 800;
-  color: black;
+  color: #000000;
 }
 
 .buttons-container {
@@ -208,6 +208,9 @@ body {
 .sub-seccion-2-cards {
   display: flex;
   align-items: center;
+}
+.sub-seccion-2-cards__date {
+  margin-left: 30px;
 }
 
 .sub-seccion-2-cards__logo {
@@ -439,6 +442,30 @@ header {
   font-size: 1.4rem;
   font-weight: 400;
   margin: 5rem 0;
+}
+
+.seccion-noticia {
+  padding: 3rem;
+  margin: 3rem 5rem;
+}
+
+.seccion-card-noticia {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.seccion-noticia-boostrap {
+  background-color: rgb(237, 237, 237);
+  border-radius: 0.5rem;
+  padding: 3rem;
+}
+.seccion-noticia-boostrap__img--img {
+  max-width: 45%;
+  height: 19rem;
+  border-radius: 1rem;
+  margin: 3% 25%;
+  object-fit: cover;
 }
 
 .subscripcion {

@@ -1,0 +1,25 @@
+.seccion-noticia {
+    // max-width: 520px;
+    padding: 3rem;
+    margin: 3rem 5rem;
+  }
+  
+  .seccion-card-noticia {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .seccion-noticia-boostrap {
+    background-color: rgb(237, 237, 237);
+    border-radius: 0.5rem;
+    padding: 3rem;
+  
+    &__img--img{
+      max-width: 45%;
+      height: 19rem;
+      border-radius: 1rem;
+      margin: 3% 25%;
+      object-fit: cover;
+    }
+  }
