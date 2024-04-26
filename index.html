@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <!--LOGO DE LA PAGINA -->
+    <header class="header">
+      <img
+        src="./assets/images/logos/adl.png"
+        alt="logo-de-desafíos-latam"
+        class="header__logo" />
+      <h2 class="header__title">Blog FrontEnd</h2>
+    </header>
+
+    <hr/>
+
+    <!-- LOGIN DE LA PAGINA -->
+    <main class="main-login">
+      <form class="form-login">
+        <div class="input-container">
+          <h2 class="input-container__title">Iniciar sesión</h2>
+          <input
+            class="input-container__input"
+            type="email"
+            name=""
+            id=""
+            placeholder="Nombre" />
+
+          <input
+            class="input-container__input"
+            type="password"
+            name="password"
+            id=""
+            placeholder="Contraseña" />
+
+          <div class="remember-container">
+            <div class="checkbox-container">
+              <input
+                class="checkbox-container__checkbox-input"
+                type="checkbox"
+                id="rememberMe" />
+              <label for="rememberMe">Recordarme</label>
+            </div>
+            <!--span olvidaste contraseña -->
+            <a href="#" class="remember-container__link--link"
+              >¿Olvidaste tu contraseña?</a
+            >
+          </div>
+        </div>
+
+        <div class="buttons-container">
+          <button
+            class="buttons-container__button buttons-container__button--login">
+            <a href="home.html" class="buttons-container__link--login"
+              >Iniciar sesión</a
+            >
+          </button>
+          <button
+            class="buttons-container__button buttons-container__button--google-login">
+            <img
+              class="buttons-container__image"
+              src="https://rotulosmatesanz.com/wp-content/uploads/2017/09/2000px-Google_G_Logo.svg_.png"
+              alt="google-logo" />
+            <a href="home.html">Iniciar sesión con Google</a>
+          </button>
+          <p class="buttons-container__register-text">
+            ¿No tienes cuenta?
+            <a class="buttons-container__register-link" href="registro.html">Registrate </a>
+          </p>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
